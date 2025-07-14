@@ -5,6 +5,15 @@ import Navbar from "./components/Navbar"
 import "./App.css"
 import PurposeSection from "./components/PurposeSection"
 import FeatureSection from "./components/FeatureSection"
+import ScheduleSection from "./components/ScheduleSection"
+import MonitorSection from "./components/MonitorSection"
+import PricingSection from "./components/PricingSection"
+import ServiceSection from "./components/ServiceSection"
+import TestimonialsSection from "./components/TestimonialsSection"
+import NewsletterSection from "./components/NewsletterSection"
+import Footer from "./components/Footer"
+
+
 
 
 function App() {
@@ -19,6 +28,13 @@ function App() {
          <CompanyLogo/>
          <PurposeSection/>
          <FeatureSection/>
+         <ScheduleSection/>
+         <MonitorSection/>
+         <PricingSection/>
+         <ServiceSection/>
+         <TestimonialsSection/>
+         <NewsletterSection/>
+         <Footer/>
   
       </div>
     </main>
